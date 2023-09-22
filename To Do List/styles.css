@@ -1,0 +1,74 @@
+.container {
+    margin: 10vh auto;
+    width: 110vh;
+    min-height: 25vh;
+    border-radius: 0.5rem;
+    padding: 2px 2px 14px 14px;
+    background-color: white;
+}
+
+
+body {
+    font-family: 'Roboto', sans-serif, 'PT Sans Narrow';
+    height: 100vh;
+    background: hsla(141, 54%, 86%, 1);
+    background: linear-gradient(90deg, hsla(141, 54%, 86%, 1) 0%, hsla(333, 73%, 85%, 1) 50%, hsla(211, 58%, 79%, 1) 100%);
+    background: -moz-linear-gradient(90deg, hsla(141, 54%, 86%, 1) 0%, hsla(333, 73%, 85%, 1) 50%, hsla(211, 58%, 79%, 1) 100%);
+    background: -webkit-linear-gradient(90deg, hsla(141, 54%, 86%, 1) 0%, hsla(333, 73%, 85%, 1) 50%, hsla(211, 58%, 79%, 1) 100%);
+    filter: progid: DXImageTransform.Microsoft.gradient(startColorstr="#CAEFD7", endColorstr="#F5BFD7", GradientType=1);
+}
+
+
+.input-container input {
+    width: 90vh;
+    height: 35px;
+    border-radius: 0.5rem;
+    flex: 1;
+    padding: 1px;
+    padding-left: 5px;
+    border: 1px solid #ccc;
+}
+input:focus {
+    border:1px solid #ccc;
+}
+button {
+    padding: 10px 20px;
+    height: 35px;
+    border: none;
+    margin-left: 10px;
+    background-color: #f5f5f5;
+    color: #333;
+    border-radius: 5px;
+    transition: box-shadow 0.3s ease-in-out;
+}
+button:hover {
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.187);
+}
+
+ul {
+    justify-content: center;
+    list-style: none;
+    padding: 0;
+}
+
+ul li {
+    display: flex;
+    align-items: center;
+    width: 100vh;
+    height: 35px;
+    border-radius: 0.5rem;
+    padding: 5px;
+    padding-left: 5px;
+    border: 1px solid #ccc;
+    margin-bottom: 5px;
+}
+ul li button {
+    margin-left: auto;
+    height: auto ; 
+    border: none;
+    padding-bottom: auto;
+    background-color: #f5f5f5;
+    color: #333;
+    border-radius: 5px;
+    transition: box-shadow 0.3s ease-in-out;
+}
